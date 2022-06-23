@@ -51,7 +51,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'SocialMedia',
-    'crispy_forms',
 ]
 
 SITE_ID = 1
@@ -144,4 +143,5 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
+MEDIA_URL = 'media/'
+MEDIA_ROOT = [ BASE_DIR / "media" ]
