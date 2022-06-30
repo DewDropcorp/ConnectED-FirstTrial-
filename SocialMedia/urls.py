@@ -9,6 +9,8 @@ urlpatterns = [
     path('contactus', views.contactus, name="contactus"),
     path('ConnectED', views.ConnectED, name='ConnectED'),
     path('signup', views.Signup, name="signup"),
-    path('login', views.Login, name = 'login'),
+    path('signin', views.Signin, name = 'Signin'),
+    path('logout', views.Logout, name='Logout'),
+    path('settings', views.Settings, name='settings'),
     path('index', views.index, name="index")
 ]
